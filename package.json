@@ -1,0 +1,34 @@
+{
+  "name": "boilerplate",
+  "private": true,
+  "version": "0.1.0",
+  "description": "webpack2-babel-boilerplate",
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "author": "Thomas Zhou",
+  "devDependencies": {
+    "autoprefixer": "^6.6.1",
+    "babel-core": "^6.22.1",
+    "babel-loader": "^6.2.10",
+    "babel-preset-es2015": "^6.22.0",
+    "babel-preset-react": "^6.22.0",
+    "babel-preset-stage-1": "^6.22.0",
+    "chai": "^3.5.0",
+    "css-loader": "^0.26.1",
+    "file-loader": "^0.9.0",
+    "mocha": "^3.2.0",
+    "postcss-loader": "^1.2.2",
+    "preact": "^7.1.0",
+    "sass-loader": "^4.1.1",
+    "style-loader": "^0.13.1",
+    "webpack": "^2.2.0",
+    "webpack-dev-server": "^2.2.0"
+  },
+  "scripts": {
+    "test": "mocha",
+    "start": "webpack-dev-server --host 0.0.0.0",
+    "deploy": "npm run bundle; firebase deploy"
+  },
+  "dependencies": {}
+}

@@ -1,0 +1,10 @@
+node_modules/*
+npm-debug*
+.idea/*
+client/app.js
+public/build
+rethinkdb_data/*
+secrets/*
+solr/data/*
+error*
+Dockerfile
